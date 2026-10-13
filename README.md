@@ -2,9 +2,9 @@
 
 写一篇 Markdown 文章，使用 Butterfly 生成博客首页与文章页。已配置归档、标签、分类和关于页面。
 
-计划发布地址：https://zzcodd.github.io/（尚未完成发布）
+博客地址：https://zzcodd.github.io/
 
-计划源码仓库：https://github.com/zzcodd/zzcodd.github.io
+源码仓库：https://github.com/zzcodd/zzcodd.github.io
 
 ## 本地预览
 
