@@ -1,0 +1,28 @@
+{
+  "name": "personal-blog-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "一个用于跑通 Hexo + Butterfly 写作和本地预览流程的个人博客示例。",
+  "hexo": {
+    "version": "8.1.2"
+  },
+  "scripts": {
+    "start": "hexo server --config _config.yml,_config.local.yml --ip 127.0.0.1 --port 4000",
+    "build": "hexo generate --bail",
+    "clean": "hexo clean",
+    "new": "hexo new"
+  },
+  "dependencies": {
+    "hexo": "8.1.2",
+    "hexo-cli": "4.3.2",
+    "hexo-generator-archive": "2.0.0",
+    "hexo-generator-category": "2.0.0",
+    "hexo-generator-index": "4.0.0",
+    "hexo-generator-tag": "2.0.0",
+    "hexo-renderer-marked": "7.0.1",
+    "hexo-renderer-pug": "3.0.0",
+    "hexo-renderer-stylus": "3.0.1",
+    "hexo-server": "3.0.0",
+    "hexo-theme-butterfly": "5.7.0"
+  }
+}

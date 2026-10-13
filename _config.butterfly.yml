@@ -1,0 +1,103 @@
+nav:
+  display_title: true
+  display_post_title: true
+  fixed: false
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  关于: /about/ || fas fa-user
+favicon: /images/avatar.svg
+avatar:
+  img: /images/avatar.svg
+  effect: false
+index_img: /images/notebook-cover.svg
+default_top_img: /images/notebook-cover.svg
+archive_img: /images/notebook-cover.svg
+index_top_img_height: 340px
+index_site_info_top: 45%
+background: '#f4f6f3'
+subtitle:
+  enable: true
+  effect: false
+  source: false
+  sub:
+    - 记录技术与生活，先从一篇文章开始。
+index_layout: 1
+index_post_content:
+  method: 1
+  length: 180
+cover:
+  index_enable: true
+  aside_enable: false
+  archives_enable: false
+  default_cover:
+    - /images/notebook-cover.svg
+theme_color:
+  enable: true
+  main: '#39785e'
+  paginator: '#39785e'
+  button_hover: '#245541'
+  text_selection: '#39785e'
+  link_color: '#39785e'
+  toc_color: '#39785e'
+  blockquote_padding_color: '#39785e'
+  blockquote_background_color: '#eef5ef'
+  scrollbar_color: '#b9cbbf'
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: right
+  card_author:
+    enable: true
+    description: 这里放技术笔记、生活记录，以及想动手试一试的东西。
+    button:
+      enable: true
+      icon: fas fa-user
+      text: 关于我
+      link: /about/
+  card_announcement:
+    enable: true
+    content: 欢迎来到我的第一版博客。今天先写下第一篇文章。
+  card_recent_post:
+    enable: false
+  card_categories:
+    enable: true
+  card_tags:
+    enable: true
+  card_archives:
+    enable: false
+  card_webinfo:
+    enable: false
+toc:
+  post: true
+  page: false
+  number: false
+  expand: true
+post_copyright:
+  enable: false
+related_post:
+  enable: false
+post_pagination: false
+busuanzi:
+  site_uv: false
+  site_pv: false
+  page_pv: false
+share:
+  use: ''
+comments:
+  use: ''
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: false
+display_mode: light
+footer:
+  owner:
+    enable: true
+    since: 2026
+  copyright:
+    enable: true
+    version: true

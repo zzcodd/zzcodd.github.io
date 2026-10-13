@@ -1,0 +1,48 @@
+title: Kevin 的笔记
+subtitle: 技术、生活与一些小尝试
+description: 记录学到的东西，也记录值得留下的小事。
+author: Kevin
+language: zh-CN
+timezone: Asia/Shanghai
+url: https://zzcodd.github.io
+root: /
+permalink: posts/:title/
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+skip_render: []
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: []
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: false
+syntax_highlighter: highlight.js
+highlight:
+  enable: true
+  line_number: false
+  auto_detect: false
+  tab_replace: '  '
+prismjs:
+  enable: false
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+default_category: 未分类
+date_format: YYYY-MM-DD
+time_format: HH:mm
+updated_option: date
+per_page: 10
+pagination_dir: page
+theme: butterfly
+deploy:
+  type: ''
